@@ -3,8 +3,8 @@ package Dominio;
 public class Outputs {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Empleado emp = new Empleado();
+		System.out.println(emp.getEdad());
 	}
 
 }
