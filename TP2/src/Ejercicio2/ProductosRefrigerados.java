@@ -25,7 +25,7 @@ public class ProductosRefrigerados extends Producto{
 
 	@Override
 	public String toString() {
-		return super.toString() + ", Codigo: " + supervisor_id;
+		return super.toString() + "ProductosRefrigerados [supervisor_id=" + supervisor_id + "]";
 	}
 	
 }
